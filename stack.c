@@ -1,8 +1,8 @@
 #include<stdio.h>
-#define MAX_SIZE 100
+#define MAX_SIZE 100 // Maximum size of stack
  
-int stack[MAX_SIZE];
-int top = -1;
+int stack[MAX_SIZE]; // Stack array to hold stack elements
+int top = -1;  // initially stack is empty
 
 int IsFull(){
  if(top == MAX_SIZE-1)
