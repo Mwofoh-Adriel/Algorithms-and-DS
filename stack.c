@@ -10,7 +10,7 @@ int IsFull(){
   else
   return 0; 
 }
-
+        
 int IsEmpty(){
   if(top == -1)
   return 1;
