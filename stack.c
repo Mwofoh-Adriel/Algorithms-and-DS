@@ -8,7 +8,7 @@ int IsFull(){
  if(top == MAX_SIZE-1)
   return 1;
   else
-  return 0; 
+  return 1; 
 }
         
 int IsEmpty(){
