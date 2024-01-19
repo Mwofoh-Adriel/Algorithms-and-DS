@@ -41,6 +41,7 @@ int main() {
     enqueue(10);
     enqueue(20);
     enqueue(30);
+    enqueue(40);
     display();
     dequeue();
     display();
