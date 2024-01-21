@@ -47,7 +47,9 @@ int main() {
     push(5);
     push(10);
     push(15);
+    push(20);
 
+    printf("Popped value: %d\n", pop());
     printf("Popped value: %d\n", pop());
     printf("Popped value: %d\n", pop());
     printf("Popped value: %d\n", pop());
