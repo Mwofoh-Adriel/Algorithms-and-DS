@@ -40,7 +40,7 @@ void display() {
     }
 }
 
-
+    //Main Function
 int main() {
     enqueue(10);  // Add 10 to the queue
     enqueue(20);  // Add 20 to the queue
