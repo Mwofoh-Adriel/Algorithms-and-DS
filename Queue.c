@@ -45,6 +45,7 @@ int main() {
     enqueue(10);  // Add 10 to the queue
     enqueue(20);  // Add 20 to the queue
     enqueue(30);  // Add 30 to the queue
+    enqueue(40); //  Add 40 to the queue
     display();  // Display the queue
     dequeue();  // Remove the front element from the queue
     dequeue();  // Remove the new front element from the queue
