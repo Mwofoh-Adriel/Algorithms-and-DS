@@ -31,8 +31,8 @@ void dequeue() {
 void display() {
     if (front == -1 || front > rear) {  // Check if the queue is empty
         printf("Queue is empty.\n");  // If so, print a message
-    } else {
-        printf("Queue elements: ");  // Print a message
+    } else  {
+        p rintf("Queue elements: ");  // Print a message
         for (int i = front; i <= rear; i++) {  // Loop through the queue from front to rear
             printf("%d ", queue[i]);  // Print each element
         }
